@@ -1,6 +1,9 @@
 :root {
-    --header-color: hsl(207, 90%, 54%);
+    --header-color: rgb(32, 148, 243);
+    --header-text: #212121;
     --mains-color: #FFFFFF;
-    --header-backgraund: #212121;
-    --main-background: #757575;
+    --main-text: #757575;
+    --main-background: #2F303A;
+    --footer-main-background: #F5F4FA;
+    --footer-text: #FFFFFF99;
 }
