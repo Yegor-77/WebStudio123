@@ -10,8 +10,23 @@
 body {
 
     font-family: ‘Inter’;
-   
+   *{
+    box-sizing: border-box;
+
+   }
 }
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+margin: 0 auto;
+padding:0 15px ;
+border:1px solid;
+   }
+
 
 .header-logo{
     color: var(--header-color);
