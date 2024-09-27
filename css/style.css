@@ -23,9 +23,44 @@ ul{
 .container{
     width: 1200px;
 margin: 0 auto;
-padding:0 15px ;
+padding: 0 10px ;
 border:1px solid;
    }
+
+
+
+   .header{
+    margin-bottom: 15px ;
+   }
+   .mainn{
+    margin-bottom: 15px;
+   }
+   .line{
+    margin-bottom: 15px;
+   }
+   .work{
+    margin-bottom: 15px;
+   }
+   .comand{
+    margin-bottom: 15px;
+   }
+
+
+
+   .headder{
+    margin-bottom: 15px;
+   }
+
+   .images{
+    margin-top: 15px;
+   }
+
+   .images{
+    margin-bottom: 15px;
+   }
+
+   
+
 
 
 .header-logo{
@@ -89,6 +124,7 @@ font-weight: 900;
 line-height: 1.35;
 letter-spacing: 2.64px;
 text-transform: uppercase;
+
 }
 
 .main-button{
