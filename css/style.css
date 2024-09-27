@@ -8,61 +8,45 @@
     --footer-text: #FFFFFF99;
 }
 body {
-
     font-family: ‘Inter’;
    *{
     box-sizing: border-box;
 
    }
 }
-
 ul{
     list-style: none;
 }
-
 .container{
     width: 1200px;
 margin: 0 auto;
 padding: 0 10px ;
 border:1px solid;
    }
-
-
-
    .header{
-    margin-bottom: 150px ;
+    margin-bottom: 15px ;
    }
    .mainn{
-    margin-bottom: 150px;
+    margin-bottom: 15px;
    }
    .line{
-    margin-bottom: 150px;
+    margin-bottom: 15px;
    }
    .work{
-    margin-bottom: 150px;
+    margin-bottom: 15px;
    }
    .comand{
     margin-bottom: 15px;
    }
-
-
-
    .headder{
     margin-bottom: 15px;
    }
-
    .images{
     margin-top: 15px;
    }
-
    .images{
     margin-bottom: 15px;
    }
-
-   
-
-
-
 .header-logo{
     color: var(--header-color);
     font-family: "Raleway" , sans-serif;
@@ -71,7 +55,6 @@ border:1px solid;
     line-height: 1.2;
     letter-spacing: 0.78px;
 }
-
 .header-a{
 color: var(--header-color);
 font-family: "Roboto" , sans-serif;
@@ -80,21 +63,16 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.28px;
 }
-   
-
 .header-port{
-    color: var(--header-text);
-
+color: var(--header-text);
 font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.28px;
-}
-
-   
+} 
 .line-link{
-    color: var(--header-color);
+color: var(--header-color);
 font-family: "Roboto" , sans-serif;
 font-size: 14px;
 font-style: normal;
@@ -102,11 +80,8 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.28px;
 }
-   
-
 .line-lin{
     color: var(--header-text);
-
     font-family: "Roboto" , sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -114,9 +89,8 @@ letter-spacing: 0.28px;
     line-height: 1.2;
     letter-spacing: 0.28px;
 }
-
-.main-text{
-    color: var(--footer-text);
+.mainn-text{
+color: var(--footer-text);
 text-align: center;
 font-family: "Roboto" , sans-serif;
 font-size: 44px;
@@ -124,10 +98,9 @@ font-weight: 900;
 line-height: 1.35;
 letter-spacing: 2.64px;
 text-transform: uppercase;
-
 }
 
-.main-button{
+.mainn-button{
     color: var(--footer-text);
 
 text-align: center;
