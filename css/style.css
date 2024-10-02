@@ -1,18 +1,19 @@
 :root {
     --header-color:  #2196F3;
     --header-text: #212121;
-    --mains-color: #812121;
     --main-text: #757575;
     --main-background: #2F303A;
     --footer-main-background: #F5F4FA;
     --footer-text: #FFFFFF99;
 }
-body {
-    font-family: ‘Inter’;
-   *{
-    box-sizing: border-box;
 
-   }
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+ font-family: "Roboto" , sans-serif ;
 }
 ul{
     list-style: none;
@@ -55,6 +56,15 @@ border:1px solid;
     line-height: 1.2;
     letter-spacing: 0.78px;
 }
+
+.logo-span{
+    color: var(--header-text);
+    font-family: "Raleway" , sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.78px;
+}
 .header-a{
 color: var(--header-color);
 font-family: "Roboto" , sans-serif;
@@ -65,7 +75,7 @@ letter-spacing: 0.28px;
 }
 .header-port{
 color: var(--header-text);
-font-family: Roboto;
+font-family: "Roboto" , sans-serif;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
