@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration:none ;
+}
+
 body{
 
  font-family: "Roboto" , sans-serif ;
@@ -24,30 +28,8 @@ margin: 0 auto;
 padding: 0 10px ;
 border:1px solid;
    }
-   .header{
-    margin-bottom: 15px ;
-   }
-   .mainn{
-    margin-bottom: 15px;
-   }
-   .line{
-    margin-bottom: 15px;
-   }
-   .work{
-    margin-bottom: 15px;
-   }
-   .comand{
-    margin-bottom: 15px;
-   }
-   .headder{
-    margin-bottom: 15px;
-   }
-   .images{
-    margin-top: 15px;
-   }
-   .images{
-    margin-bottom: 15px;
-   }
+   
+  
 .header-logo{
     color: var(--header-color);
     font-family: "Raleway" , sans-serif;
@@ -245,6 +227,17 @@ line-height: 1.87;
 letter-spacing: 0.48px;
 }
 
+.mainn{
+    background-color: var(--main-background);
+}
+
+.footerr{
+     background-color: var(--main-background);
+}
+
+.comand{
+    background-color: var(--footer-main-background);
+}
 
 
 
