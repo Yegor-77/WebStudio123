@@ -7,6 +7,10 @@
     --footer-text: #FFFFFF99;
 }
 
+ul{
+    list-style: none;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -237,6 +241,27 @@ letter-spacing: 0.48px;
 
 .comand{
     background-color: var(--footer-main-background);
+}
+
+
+
+.header-line{
+justify-content: right;
+justify-content: space-between;
+gap: 5px;
+display: flex;
+align-items: center ;
+
+}
+
+.header{
+    flex-wrap: wrap;
+}
+
+    
+
+.header-iteam:nth-child(5){
+margin: 0px;
 }
 
 
