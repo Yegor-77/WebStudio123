@@ -3,7 +3,7 @@
     --header-text: #212121;
     --main-text: #757575;
     --main-background: #2F303A;
-    --footer-main-background: #F5F4FA;
+--footer-main-background: #F5F4FA;
     --footer-text: #FFFFFF99;
 }
 
@@ -35,15 +35,6 @@ border:1px solid;
    }
    
   
-.header-logo{
-    color: var(--header-color);
-    font-family: "Raleway" , sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.78px;
-}
-
 .logo-span{
     color: var(--header-text);
     font-family: "Raleway" , sans-serif;
@@ -53,13 +44,17 @@ border:1px solid;
     letter-spacing: 0.78px;
 }
 .header-a{
-color: var(--header-color);
+color: var(--header-text);
 font-family: "Roboto" , sans-serif;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.28px;
 }
+
+.header-iteam :hover{
+    color: var(--header-color);
+    }
 .header-port{
 color: var(--header-text);
 font-family: "Roboto" , sans-serif;
@@ -69,7 +64,7 @@ line-height: 1.2;
 letter-spacing: 0.28px;
 } 
 .line-link{
-color: var(--header-color);
+color: var(--header-text);
 font-family: "Roboto" , sans-serif;
 font-size: 14px;
 font-style: normal;
@@ -241,9 +236,6 @@ line-height: 1.87;
 letter-spacing: 0.48px;
 }
 
-.mainn{
-    background-color: var(--main-background);
-}
 
 .footerr{
      background-color: var(--main-background);
@@ -326,8 +318,6 @@ margin-right:
 .mainn-text{
 display: flex;
 margin: 0 auto;
-padding-top: 170px;
-padding-bottom: 0px;
 align-items: center;
 margin-left:250px ;
 margin-right:250px ;
@@ -340,7 +330,6 @@ display: flex;
 align-items: center;
 margin: 0 auto;
 margin-top: 40px;
-margin-bottom: 210px;
 padding-left:30px ;
 padding-right:30px ;
 padding-top:10px ;
@@ -388,11 +377,21 @@ padding-bottom: 10px;
 display: flex;
 justify-content: space-between;
 gap: 30px;
-margin-bottom:120px ;
-margin-top:94px ;
 }
 
+.mainn{
+    margin-bottom: 94px;
+}
 
+.line{
+    margin-bottom: 188px;
+}
+
+.work{
+margin-bottom: 94px;
+
+
+}
 
 .work-line{
 display: flex;
@@ -411,7 +410,6 @@ width: 370px;
     display: flex;
    justify-content: space-between;
    gap: 30px;
-   margin-bottom:202px ;
 }
 
 
@@ -422,7 +420,6 @@ width: 370px;
 
 .comand-title{
     margin-bottom: 50px;
-    margin-top:94px;
 }
 
 
@@ -486,11 +483,32 @@ gap: 8px;
      
 }
 
-.portfolio-button:nth-last-child(5):hover{
+.portfolio-button:hover{
     background-color: var(--header-color);
      border-radius: 4px;
         padding-top: px;}
       
+
+
+
+        .header-:hover{
+            color: var(--header-color);
+            font-family: "Raleway" , sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: 0.78px;
+        }
+        
+
+
+.first-mein{
+    margin-bottom: 94px;
+}
+
+.comand{
+    padding-top: 94px;
+}
 
 
 
@@ -501,6 +519,11 @@ gap: 8px;
 
 .images-title{
     margin-bottom: 20px;
+}
+
+.mainn{
+padding-top: 195px;
+padding-bottom: 195px;
 }
 
 .mainn{
@@ -530,9 +553,51 @@ gap: 8px;
 
 
 
-.line-ul::before:nth-child(1){
-    content: url(/img/Group.jpg);
-}
+.line-iteam:nth-child(1)::before{
+content:"";
+display: block;
+width: 270px;
+height: 120px;
+border-radius: 4px;
+background-color: var(--footer-main-background);
+background-repeat: no-repeat;
+background-image: url(../img/antenna.svg);
+background-position: center;}
+
+.line-iteam:nth-child(2)::before{
+    content: "" ;
+display: block;
+width: 270px;
+height: 120px;
+border-radius: 4px;
+background-color: var(--footer-main-background);
+background-repeat: no-repeat;
+background-image: url(../img/vector.svg);
+background-position: center;
+    }
+
+    .line-iteam:nth-child(3)::before{
+        content: "" ;
+display: block;
+width: 270px;
+height: 120px;
+border-radius: 4px;
+background-color: var(--footer-main-background);
+background-repeat: no-repeat;
+background-image: url(../img/diagram.svg);
+background-position: center;
+        }
+        .line-iteam:nth-child(4)::before{
+            content: "" ;
+            display: block;
+            width: 270px;
+            height: 120px;
+            border-radius: 4px;
+            background-color: var(--footer-main-background);
+            background-repeat: no-repeat;
+            background-image: url(../img/astronaut.svg);
+            background-position: center;
+            }
 
 
 
@@ -576,4 +641,31 @@ gap: 8px;
         .div99 { grid-area: 3 / 3 / 4 / 4; }
 
    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainn{
+   
+    }
+
+
+
 
