@@ -455,10 +455,7 @@ label {
 .mainn {
   padding-top: 195px;
   padding-bottom: 195px;
-}
-
-.mainn {
-  background-image: url(/img/Img.jpg);
+  background-image: url(/img/img.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
