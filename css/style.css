@@ -64,7 +64,7 @@ label {
 }
 
 .header-iteam :hover {
-  color: var(--header-color);
+    color: var(--header-color);
 }
 .header-port {
   color: var(--header-text);
@@ -115,6 +115,8 @@ label {
 }
 
 .line-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   color: var(--header-text);
 
   font-family: "Roboto", sans-serif;
@@ -177,6 +179,14 @@ label {
 }
 
 .header-logo {
+  color: var(--header-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.78px;
+}
+.header-logos {
   color: var(--header-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -268,7 +278,7 @@ label {
 }
 
 .header-iteam:nth-child(4) {
-  margin-left: 340px;
+  margin-left: 250px;
 }
 
 .header-iteam:nth-child(5) {
@@ -303,6 +313,12 @@ label {
 }
 .header-logo {
   margin-top: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.header-logos {
+  margin-top: 60px;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -581,3 +597,259 @@ label {
 .div99 {
   grid-area: 3 / 3 / 4 / 4;
 }
+
+.comand {
+  margin-bottom: 94px;
+}
+
+.client-text {
+  margin-bottom: 50px;
+  color: var(--header-text);
+
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.client-line {
+  display: flex;
+  gap: 30px;
+}
+
+.dablle-footer {
+  color: #fff;
+
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.helping-div {
+  display: flex;
+}
+
+.dablle-footer-line {
+  display: flex;
+  gap: 10px;
+}
+.dabble-div {
+  margin-top: 72px;
+  margin-left: 70px;
+}
+
+/*/
+.comand-iteamss {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  background-color: #2196f3;
+  left: 19%;
+  right: 19%;
+}
+  /*/
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: #00000016;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  overflow: auto;
+  overflow-x: auto;
+  width: 528px;
+  height: 581px;
+  border-radius: 4px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+.mn-btnn {
+  margin-left: 485px;
+}
+
+/*/
+  hidden- is invisible
+  auto- auto
+  scroll-  завжди
+
+ /*/
+.logos-div {
+  gap: 14px;
+  background-position: center;
+  align-items: center;
+  margin-left: 41px;
+}
+
+.comand-iteam {
+  background: #fff;
+}
+.comand-iteamss {
+  background: #fff;
+}
+.header-img {
+  margin-right: 10px;
+}
+.modal-text {
+  margin-left: 10px;
+  color: #212121;
+
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+.model-labl{
+  margin-top: 4px;
+  margin-left: 40px;
+  width: 448px;
+height: 40px;
+border-radius: 4px;
+
+}
+.mod-line{
+  margin-left: 40px;
+}
+.modal-text{
+  margin-top: 12px;
+}
+.form-span{
+  color: #2196F3;
+font-family: "Roboto" sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.model-labluu{
+  margin-top: 4px;
+  margin-left: 40px;
+  width: 448px;
+height: 40px;
+border-radius: 4px;
+}
+
+.model-lable{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.model-lableer{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.model-input{
+  margin-top: 4px;
+  margin-left: 40px;
+  width: 448px;
+height: 40px;
+border-radius: 4px;
+}
+
+.mod-text{
+  margin-top: 4px;
+  margin-left: 40px;
+  width: 448px;
+  height: 120px;
+border-radius: 4px;
+}
+
+.modal-btn{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.modal-foot-buton{
+  margin-left: 164px;
+  margin-top: 40px;
+padding-left: 52px;
+padding-right: 52px;
+margin-top: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 4px;
+background: #2196F3;
+color: #FFF;
+
+text-align: center;
+font-family: "Roboto" sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 187.5%; 
+letter-spacing: 0.96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+            <video
+                width="100%"
+                height="100%"
+                src="./img/3116737-hd_1920_1080_25fps.mp4"
+                controls
+              >
+               <source src="" />
+              </video>
+                /**/
