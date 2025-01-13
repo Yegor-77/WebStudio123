@@ -797,8 +797,37 @@ font-size: 16px;
 font-weight: 700;
 line-height: 187.5%; 
 letter-spacing: 0.96px;
+position: ;
 }
 
+
+
+
+.trump{
+  position: relative;
+  width: 370px;
+  height: 294px;
+overflow: hidden;
+background-color: #ff0043;
+}
+
+.overley{ 
+  width: 370px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.90);
+
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+position: absolute;
+ 
+transition: transform 250ms ease-in-out;
+}
+.trump:hover.ovrley{
+ background-color: black;
+transform: translate(0);
+  }
+  
 
 
 
