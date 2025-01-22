@@ -166,6 +166,8 @@ label {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.48px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .comand-text {
@@ -476,6 +478,7 @@ label {
   background-repeat: no-repeat;
 }
 
+
 .images-link:nth-last-child(1) {
   margin-top: 30px;
   margin-bottom: 31px;
@@ -697,6 +700,8 @@ label {
   background-position: center;
   align-items: center;
   margin-left: 41px;
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 
 .comand-iteam {
@@ -797,7 +802,6 @@ font-size: 16px;
 font-weight: 700;
 line-height: 187.5%; 
 letter-spacing: 0.96px;
-position: ;
 }
 
 
@@ -827,11 +831,160 @@ transition: transform 250ms ease-in-out;
  background-color: black;
 transform: translate(0);
   }
-  
+.footer-input{
+  width: 358px;
+height: 50px;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.fot-btn{
+
+  margin-left: 6px;
+  color: #FFF;
+
+text-align: center;
+font-family: "Roboto" sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px; 
+letter-spacing: 0.96px;
+  width: 200px;
+height: 50px;
+
+border-radius: 4px;
+background: #2196F3;
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.foot-text{
+  margin-bottom: 20px;
+  color: #FFF;
+
+font-family: "Roboto" sans-serif;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.fot-dive{
+  margin-left: 93px;
+margin-top: 72px;
+
+}
+.logos-div{
+  gap: 25px;
+}
+.healper{
+  margin-left: 30px;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*/
+
+  <div class="trump">
+  <div class="overley">
+    Ресурс пропонує комплексні пропозиції з 
+    різним рівнем функціоналу
+     та сервісів. Все це дозволить 
+    відвідувачу отримати вичерпні відомості
+     про компанію чи приватну особу.
+</div>
+</div>
+
+/*/
 
 
 
