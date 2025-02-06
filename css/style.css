@@ -82,6 +82,7 @@ label {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.28px;
+
 }
 .line-lin {
   color: var(--header-text);
@@ -91,7 +92,33 @@ label {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.28px;
+
 }
+.hover-head :hover{ 
+
+    background-image: url(../img/hoverdefend.jpg);
+    color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+
+}
+.line-lin :hover{ 
+  background-image: url(../img/poprlymytuda.jpg);
+  color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+  
+}
+
+
 .mainn-text {
   color: var(--footer-text);
   text-align: center;
@@ -473,7 +500,7 @@ label {
 .mainn {
   padding-top: 191px;
   padding-bottom: 195px;
-  background-image: url(../img/Imges.png);
+  background-image: url(/img/Imges.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -686,6 +713,9 @@ label {
   overflow: hidden;
 }
 .mn-btnn {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
   margin-left: 485px;
 }
 
@@ -711,7 +741,11 @@ label {
   background: #fff;
 }
 .header-img {
+
   margin-right: 10px;
+}
+.header-iteamer:hover{
+color:white;
 }
 .modal-text {
   margin-left: 10px;
@@ -780,7 +814,7 @@ border-radius: 4px;
 }
 
 .modal-btn{
-  margin-left: 40px;
+  margin-left: 74px;
   margin-top: 20px;
 }
 
@@ -827,10 +861,12 @@ position: absolute;
  
 transition: transform 250ms ease-in-out;
 }
+
 .trump:hover.ovrley{
  background-color: black;
 transform: translate(0);
   }
+
 .footer-input{
   width: 358px;
 height: 50px;
@@ -877,9 +913,7 @@ margin-top: 72px;
 .logos-div{
   gap: 25px;
 }
-.healper{
-  margin-left: 30px;
-}
+
 
 .header-a{
   position: relative;
@@ -910,6 +944,51 @@ bottom: -29px;
 left: 0px;
 display: inline-block;
 }
+
+.maine-hovvver:hover{
+
+  position: absolute;
+background-image: url(../img/hover.ing.jpg);
+
+}
+
+.imagres{
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 50px;
+}
+.test-overley{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 294px;
+  opacity: 0;
+  transform: translateY(100%);
+background-color: var(--dark-text);
+transition: transform 0.5s  cubic-bezier(0.4, 0, 0.2, 1) 250ms, opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+color: #FFF;
+font-family: "Roboto" sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.54px;
+background: rgba(33, 150, 243, 0.90);
+padding-top: 63px;
+padding-left: 24px;
+}
+
+
+.test-linker:hover .test-overley{
+  opacity: 1;
+  transform: translateY(0);
+}
+.test-linker{
+
+ overflow: hidden;
+ position: relative;
+ }
+
 
 
 
