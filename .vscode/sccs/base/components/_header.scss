@@ -1,0 +1,127 @@
+:root {
+  --header-color: #2196f3;
+  --header-text: #212121;
+  --main-text: #757575;
+  --main-background: #2f303a;
+  --footer-main-background: #f5f4fa;
+  --footer-text: #ffffff99;
+  --all-backgraund: #afb1b8;
+}
+
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+button {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+form,
+img,
+input,
+button,
+label {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid;
+}
+
+.logo-span {
+  color: var(--header-text);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.78px;
+}
+.logo-spane {
+  color: var(--footer-main-background);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.78px;
+}
+.header-a {
+  color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+}
+
+.header-iteam :hover {
+  color: var(--header-color);
+}
+.header-port {
+  color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+}
+.line-link {
+  color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+}
+.line-linkkkk-edine:hover {
+  fill: var(--header-color);
+}
+
+.line-lin {
+  color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+}
+.hover-head :hover {
+  background-image: url(../img/hoverdefend.jpg);
+  color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+}
+.line-lin :hover {
+  background-image: url(../img/poprlymytuda.jpg);
+  color: var(--header-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
+}

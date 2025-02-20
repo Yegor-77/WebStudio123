@@ -1,0 +1,246 @@
+.header-port:hover::before {
+  content: "";
+  border-radius: 2px;
+  background-color: #2196f3;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  bottom: -29px;
+  left: 0px;
+  display: inline-block;
+}
+
+.maine-hovvver:hover {
+  position: absolute;
+  background-image: url(../img/hover.ing.jpg);
+}
+
+.imagres {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 50px;
+}
+.test-overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 294px;
+  opacity: 0;
+  transform: translateY(100%);
+  background-color: var(--dark-text);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+  color: #fff;
+  font-family: "Roboto" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  background: rgba(33, 150, 243, 0.9);
+  padding-top: 63px;
+  padding-left: 24px;
+}
+
+.test-linker:hover .test-overley {
+  opacity: 1;
+  transform: translateY(0);
+}
+.test-linker {
+  overflow: hidden;
+  position: relative;
+}
+
+.team-svg-list {
+  display: flex;
+  gap: 9px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-w-svg {
+  width: 20px;
+  height: 20px;
+}
+.team-svg-link {
+  padding: 12px;
+  display: inline-block;
+  fill: var(--all-backgraund);
+}
+
+.team-svg-link:hover {
+  background-color: var(--header-color);
+  fill: #fff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.healping-line:nth-child(1) {
+  margin-left: 32px;
+}
+.healping-line:nth-child(4) {
+  margin-right: 32px;
+}
+.team-svg-list {
+  margin-bottom: 30px;
+}
+
+.footer-test-linker:hover .test-overley {
+  opacity: 1;
+  transform: translateY(0);
+}
+.footer-test-linker {
+  overflow: hidden;
+  position: relative;
+}
+
+.footer-team-svg-list {
+  display: flex;
+  gap: 9px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-team-w-svg {
+  width: 20px;
+  height: 20px;
+}
+.footer-team-svg-link {
+  padding: 12px;
+  display: inline-block;
+  fill: #fff;
+  background-color: #ffffff1a;
+  border-radius: 50%;
+}
+
+.footer-team-svg-link:hover {
+  background-color: var(--header-color);
+  fill: #fff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.footer-healping-line:nth-child(1) {
+  margin-left: 32px;
+}
+.footer-healping-line:nth-child(4) {
+  margin-right: 32px;
+}
+.footer-team-svg-list {
+  margin-bottom: 30px;
+}
+
+.mn-team-w-svg {
+  width: 140px;
+  height: 64px;
+  border-radius: 4px;
+}
+.mn-team-svg-link {
+  padding: 12px;
+  display: inline-block;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.mn-team-svg-link:hover {
+  fill: var(--header-color);
+  color: #afb1b8;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+
+.mn-healping-line {
+  margin-left: 4px;
+}
+
+.mn-team-svg-list {
+  margin-bottom: 30px;
+}
+
+.head-team-w-svg {
+  width: 10px;
+  height: 16px;
+}
+
+.head-team-svg-link {
+  display: inline-block;
+  fill: #afb1b8;
+  color: #757575;
+  margin-right: 5px;
+}
+
+.head-team-svg-link:hover {
+  fill: var(--header-color);
+  color: var(--header-color);
+}
+
+.hhead-team-w-svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.hhead-team-svg-link {
+  display: inline-block;
+  fill: #afb1b8;
+  color: #757575;
+  margin-right: 5px;
+}
+
+.hhead-team-svg-link:hover {
+  fill: var(--header-color);
+  color: var(--header-color);
+}
+.header-team-line {
+  margin-right: 30px;
+}
+
+.header-iteamss {
+  margin-right: 310px;
+}
+/*/
+
+  <div class="trump">
+  <div class="overley">
+    Ресурс пропонує комплексні пропозиції з 
+    різним рівнем функціоналу
+     та сервісів. Все це дозволить 
+    відвідувачу отримати вичерпні відомості
+     про компанію чи приватну особу.
+</div>
+</div>
+
+/*/
+
+/*
+
+            <video
+                width="100%"
+                height="100%"
+                src="./img/3116737-hd_1920_1080_25fps.mp4"
+                controls
+              >
+               <source src="" />
+              </video>
+                /**/
+
+.main-work-line {
+  margin-top: 224px;
+  width: 370px;
+  height: 70px;
+  flex-shrink: 0;
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  background-position: bottom;
+
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  padding-top: 27px;
+}
