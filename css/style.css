@@ -21,6 +21,11 @@ button {
   text-decoration: none;
 }
 
+button:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -73,6 +78,9 @@ label {
 }
 
 .header-iteam :hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   color: var(--header-color);
 }
 .header-port {
@@ -93,6 +101,9 @@ label {
   letter-spacing: 0.28px;
 }
 .line-linkkkk-edine:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   fill: var(--header-color);
 }
 
@@ -106,6 +117,9 @@ label {
   letter-spacing: 0.28px;
 }
 .hover-head :hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   background-image: url(../img/hoverdefend.jpg);
   color: var(--header-text);
   font-family: "Roboto", sans-serif;
@@ -116,6 +130,9 @@ label {
   letter-spacing: 0.28px;
 }
 .line-lin :hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   background-image: url(../img/poprlymytuda.jpg);
   color: var(--header-text);
   font-family: "Roboto", sans-serif;
@@ -476,12 +493,18 @@ label {
 }
 
 .portfolio-button:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   background-color: var(--header-color);
   border-radius: 4px;
   padding-top: px;
 }
 
 .header-:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   color: var(--header-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -755,6 +778,9 @@ label {
   margin-right: 10px;
 }
 .header-iteamer:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   color: white;
 }
 .modal-text {
@@ -869,6 +895,9 @@ label {
 }
 
 .trump:hover.ovrley {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   background-color: black;
   transform: translate(0);
 }
@@ -922,6 +951,9 @@ label {
   position: relative;
 }
 .header-a:hover::before {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   content: "";
   border-radius: 2px;
   background-color: #2196f3;
@@ -937,6 +969,9 @@ label {
   position: relative;
 }
 .header-port:hover::before {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   content: "";
   border-radius: 2px;
   background-color: #2196f3;
@@ -949,6 +984,9 @@ label {
 }
 
 .maine-hovvver:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   position: absolute;
   background-image: url(../img/hover.ing.jpg);
 }
@@ -1007,6 +1045,9 @@ label {
 }
 
 .team-svg-link:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   background-color: var(--header-color);
   fill: #fff;
   color: #fff;
@@ -1024,6 +1065,9 @@ label {
 }
 
 .footer-test-linker:hover .test-overley {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   opacity: 1;
   transform: translateY(0);
 }
@@ -1052,6 +1096,9 @@ label {
 }
 
 .footer-team-svg-link:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   background-color: var(--header-color);
   fill: #fff;
   color: #fff;
@@ -1083,6 +1130,9 @@ label {
 }
 
 .mn-team-svg-link:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   fill: var(--header-color);
   color: #afb1b8;
   border: 1px solid blue;
@@ -1110,6 +1160,9 @@ label {
 }
 
 .head-team-svg-link:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   fill: var(--header-color);
   color: var(--header-color);
 }
@@ -1128,6 +1181,9 @@ label {
 }
 
 .hhead-team-svg-link:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   fill: var(--header-color);
   color: var(--header-color);
 }
