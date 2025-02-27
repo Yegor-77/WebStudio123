@@ -356,6 +356,7 @@ label {
 }
 
 .mainn-button {
+  border: 0px;
   background-color: var(--header-color);
   display: flex;
   align-items: center;
@@ -731,6 +732,9 @@ label {
   pointer-events: none;
 }
 .modal {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -750,7 +754,10 @@ label {
   width: 30px;
   height: 30px;
   border-radius: 15px;
-  margin-left: 485px;
+  margin-left: 490px;
+  margin-top: 8px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /*/
@@ -794,6 +801,7 @@ label {
   letter-spacing: 0.6px;
 }
 .model-labl {
+  border: 1px solid rgba(33, 33, 33, 0.2);
   margin-top: 4px;
   margin-left: 40px;
   width: 448px;
@@ -801,7 +809,12 @@ label {
   border-radius: 4px;
 }
 .mod-line {
+  margin-top: 12px;
   margin-left: 40px;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
 }
 .modal-text {
   margin-top: 12px;
@@ -815,6 +828,7 @@ label {
 }
 
 .model-labluu {
+  border: 1px solid rgba(33, 33, 33, 0.2);
   margin-top: 4px;
   margin-left: 40px;
   width: 448px;
@@ -823,24 +837,41 @@ label {
 }
 
 .model-lable {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
   margin-top: 10px;
   margin-left: 40px;
 }
 
 .model-lableer {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
   margin-top: 10px;
   margin-left: 40px;
 }
 
 .model-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
   margin-top: 4px;
   margin-left: 40px;
   width: 448px;
   height: 40px;
   border-radius: 4px;
 }
-
+.modal-img {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 12px;
+}
 .mod-text {
+  padding-left: 12px;
+  padding-bottom: 87px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
   margin-top: 4px;
   margin-left: 40px;
   width: 448px;
@@ -854,6 +885,7 @@ label {
 }
 
 .modal-foot-buton {
+  border: 0px;
   margin-left: 164px;
   margin-top: 40px;
   padding-left: 52px;
