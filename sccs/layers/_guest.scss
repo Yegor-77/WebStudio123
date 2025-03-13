@@ -1,0 +1,39 @@
+.guest {
+  &__link {
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 27px;
+      justify-content: center;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 53px;
+      flex-wrap: wrap;
+    }
+    @media (min-width: 1023px) {
+      gap: 37px;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    text-align: center;
+    @media (min-width: 768px) {
+      max-width: 280px;
+    }
+  }
+}

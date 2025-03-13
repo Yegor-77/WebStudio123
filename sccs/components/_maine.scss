@@ -285,7 +285,6 @@
 .comand-line {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
 }
 
 .main-img {
@@ -300,10 +299,6 @@
 .footerr {
   align-items: center;
   justify-content: center;
-}
-
-.work-line:nth-child(:last-child) {
-  margin-right: 215px;
 }
 
 .footer-images {
