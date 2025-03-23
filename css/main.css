@@ -23,21 +23,20 @@ li {
 }
 
 .container {
-  width: 380px;
+  width: 450px;
   padding: 0 15px;
   margin: 0 auto;
   outline: auto red;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .container {
-    width: 720px;
-    padding: 0 25px;
+    width: 738px;
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1024px;
+    width: 1199px;
     padding: 0 10px;
   }
 }
@@ -64,7 +63,7 @@ li {
     flex-wrap: wrap;
   }
 }
-@media (min-width: 1023px) {
+@media (min-width: 1200px) {
   .guest__list {
     gap: 37px;
     flex-wrap: nowrap;
@@ -81,6 +80,72 @@ li {
 }
 @media (min-width: 768px) {
   .guest__link {
+    max-width: 280px;
+  }
+}
+@media (min-width: 370px) {
+  .guest__list__twis {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .guest__list__twis {
+    display: none;
+  }
+}
+@media (min-width: 1199px) {
+  .guest__list__twis {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .guest__link__twis {
+    display: none;
+  }
+}
+@media (min-width: 1199px) {
+  .guest__link__twis {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .guest__link__three {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+  }
+}
+.guest__list__three {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 370px) {
+  .guest__list__three {
+    width: 370px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .guest__list__three {
+    width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.guest__link__three {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 13px;
+  justify-content: center;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .guest__link__three {
     max-width: 280px;
   }
 }
@@ -719,6 +784,14 @@ li {
   background-image: url(../img/Imges.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .mainn {
+    padding-bottom: 195px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/header-mg.svg);
+  }
 }
 
 .images-link:nth-last-child(1) {

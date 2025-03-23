@@ -379,6 +379,14 @@
   background-image: url(../img/Imges.png);
   background-position: center;
   background-repeat: no-repeat;
+  @media (max-width: 370px) {
+  }
+  @media (max-width: 768px) {
+    padding-bottom: 195px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/header-mg.svg);
+  }
 }
 
 .images-link:nth-last-child(1) {

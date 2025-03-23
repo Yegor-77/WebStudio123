@@ -1,19 +1,18 @@
 .container {
-  width: 380px;
+  width: 450px;
   padding: 0 15px;
   margin: 0 auto;
   outline: auto red;
 }
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .container {
-    width: 720px;
-    padding: 0 25px;
+    width: 738px;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1024px;
+    width: 1199px;
     padding: 0 10px;
   }
 }
