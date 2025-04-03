@@ -1,12 +1,35 @@
-.mainn-text {
-  color: var(--footer-text);
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.35;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
+.header-iteamss {
+  @media (min-width: 480px) {
+  }
+  @media (min-width: 768px) {
+    margin-right: 60px;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 310px;
+  }
+}
+
+.header-iteam {
+  @media (min-width: 480px) {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+  }
+}
+.header-a {
+  @media (min-width: 768px) {
+    margin-left: 93px;
+  }
 }
 
 .mainn-button {
@@ -187,26 +210,14 @@
   align-items: left;
 }
 
-.header-iteam:nth-child(4) {
-  margin-left: 250px;
-}
-
 .header-iteam:nth-child(5) {
   margin-right: 0px;
-}
-
-.header-iteam {
-  display: flex;
-  margin-right: 50px;
-  align-items: center;
 }
 
 .mainn-text {
   display: flex;
   margin: 0 auto;
   align-items: center;
-  margin-left: 250px;
-  margin-right: 250px;
   color: #ffffff;
 }
 
@@ -373,19 +384,51 @@
   margin-bottom: 20px;
 }
 
-.mainn {
-  padding-top: 191px;
-  padding-bottom: 195px;
+.mn-text {
+  width: 1600px;
+  height: 600px;
+  top: 80px;
   background-image: url(../img/Imges.png);
   background-position: center;
   background-repeat: no-repeat;
-  @media (max-width: 370px) {
+  @media (min-width: 480px) {
+    width: 360px;
+    height: 84px;
+    top: 178px;
+    left: 60px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 6%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
   }
-  @media (max-width: 768px) {
-    padding-bottom: 195px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../img/header-mg.svg);
+  @media (min-width: 768px) {
+    width: 360px;
+    height: 84px;
+    top: 198px;
+    left: 204px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 6%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  @media (min-width: 1200px) {
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    text-align: center;
+    text-transform: uppercase;
   }
 }
 

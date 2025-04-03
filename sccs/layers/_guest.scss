@@ -38,7 +38,7 @@
   }
 
   &__list__twis {
-    @media (min-width: 370px) {
+    @media (min-width: 480px) {
       display: none;
     }
     @media (min-width: 768px) {
@@ -72,15 +72,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media (max-width: 370px) {
+    @media (max-width: 480px) {
       width: 370px;
       flex-direction: row;
       flex-wrap: wrap;
     }
     @media (max-width: 768px) {
-      width: 768px;
-      flex-direction: row;
-      flex-wrap: wrap;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 42px;
+      letter-spacing: 6%;
+      text-align: center;
+      text-transform: uppercase;
     }
     @media (min-width: 1200px) {
     }

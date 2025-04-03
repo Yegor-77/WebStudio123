@@ -1,3 +1,47 @@
+.mn-team-svg-list {
+  margin-bottom: 30px;
+}
+
+.head-team-w-svg {
+  width: 10px;
+  height: 16px;
+}
+
+.head-team-svg-link {
+  display: inline-block;
+  fill: #afb1b8;
+  color: #757575;
+  margin-right: 5px;
+}
+
+.head-team-svg-link:hover {
+  fill: var(--header-color);
+  color: var(--header-color);
+}
+
+.hhead-team-w-svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.hhead-team-svg-link {
+  margin-right: 13px;
+  @media (min-width: 480px) {
+  }
+  @media (min-width: 768px) {
+    fill: #afb1b8;
+    color: #757575;
+    margin-right: 5px;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    fill: #afb1b8;
+    color: #757575;
+    margin-right: 5px;
+  }
+}
+
 .header-port:hover::before {
   content: "";
   border-radius: 2px;
@@ -155,76 +199,10 @@
   margin-left: 4px;
 }
 
-.mn-team-svg-list {
-  margin-bottom: 30px;
-}
-
-.head-team-w-svg {
-  width: 10px;
-  height: 16px;
-}
-
-.head-team-svg-link {
-  display: inline-block;
-  fill: #afb1b8;
-  color: #757575;
-  margin-right: 5px;
-}
-
-.head-team-svg-link:hover {
-  fill: var(--header-color);
-  color: var(--header-color);
-}
-
-.hhead-team-w-svg {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
-
-.hhead-team-svg-link {
-  display: inline-block;
-  fill: #afb1b8;
-  color: #757575;
-  margin-right: 5px;
-}
-
 .hhead-team-svg-link:hover {
   fill: var(--header-color);
   color: var(--header-color);
 }
-.header-team-line {
-  margin-right: 30px;
-}
-
-.header-iteamss {
-  margin-right: 310px;
-}
-/*/
-
-  <div class="trump">
-  <div class="overley">
-    Ресурс пропонує комплексні пропозиції з 
-    різним рівнем функціоналу
-     та сервісів. Все це дозволить 
-    відвідувачу отримати вичерпні відомості
-     про компанію чи приватну особу.
-</div>
-</div>
-
-/*/
-
-/*
-
-            <video
-                width="100%"
-                height="100%"
-                src="./img/3116737-hd_1920_1080_25fps.mp4"
-                controls
-              >
-               <source src="" />
-              </video>
-                /**/
 
 .main-work-line {
   margin-top: 224px;
