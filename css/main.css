@@ -52,14 +52,12 @@ li {
 .guest__list {
   display: flex;
   flex-direction: column;
-  gap: 27px;
   align-items: center;
   justify-content: center;
 }
 @media (min-width: 768px) {
   .guest__list {
     flex-direction: row;
-    gap: 53px;
     flex-wrap: wrap;
   }
 }
@@ -389,32 +387,32 @@ li {
   padding-top: 27px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px), (max-width: 769px) {
   .header-iteamss {
     margin-right: 60px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px), (max-width: 1201) {
   .header-iteamss {
     margin-right: 310px;
   }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 480px), (max-width: 481px) {
   .header-iteam {
     display: flex;
     margin-right: 15px;
     align-items: center;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px), (max-width: 769px) {
   .header-iteam {
     display: flex;
     margin-right: 30px;
     align-items: center;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px), (max-width: 1201) {
   .header-iteam {
     display: flex;
     margin-right: 50px;
@@ -422,7 +420,7 @@ li {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px), (max-width: 769px) {
   .header-a {
     margin-left: 93px;
   }
@@ -513,12 +511,33 @@ li {
 }
 
 .header-logos {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
   color: var(--header-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.78px;
+}
+
+@media (min-width: 768px), (max-width: 769px) {
+  .dabble-div {
+    margin-left: 105px;
+    margin-bottom: 276px;
+  }
+}
+@media (min-width: 768px), (max-width: 769px) {
+  .lets-go {
+    margin-left: 76px;
+  }
+}
+@media (min-width: 1200px), (max-width: 1201) {
+  .lets-go {
+    margin-left: 0px;
+  }
 }
 
 .adress-lin {
@@ -631,13 +650,6 @@ li {
   align-items: center;
 }
 
-.header-logos {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
 .footerr {
   display: flex;
 }
@@ -711,11 +723,6 @@ li {
   height: 294px;
 }
 
-.images-link {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .mn-section {
   display: flex;
 }
@@ -778,6 +785,34 @@ li {
   margin-bottom: 20px;
 }
 
+@media (min-width: 768px), (max-width: 769px) {
+  .footerrs-line {
+    display: block;
+    position: absolute;
+    left: 20%;
+    margin-left: 0px;
+    margin-top: 247px;
+    background-position: left;
+  }
+}
+@media (min-width: 1200px), (max-width: 1201) {
+  .footerrs-line {
+    margin-top: 0px;
+    display: flex;
+  }
+}
+
+@media (min-width: 768px), (max-width: 769px) {
+  .helping-div {
+    display: block;
+  }
+}
+@media (min-width: 1200px), (max-width: 1201) {
+  .helping-div {
+    width: 768px;
+  }
+}
+
 .mn-text {
   width: 1600px;
   height: 600px;
@@ -786,7 +821,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
 }
-@media (min-width: 480px) {
+@media (min-width: 480px), (max-width: 481px) {
   .mn-text {
     width: 360px;
     height: 84px;
@@ -801,7 +836,7 @@ li {
     font-family: "Roboto", sans-serif;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px), (max-width: 769px) {
   .mn-text {
     width: 360px;
     height: 84px;
@@ -816,7 +851,7 @@ li {
     text-transform: uppercase;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px), (max-width: 1201) {
   .mn-text {
     width: 696px;
     height: 120px;
@@ -925,11 +960,31 @@ li {
 }
 
 .images-link {
-  display: grid;
+  flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  align-items: center;
+}
+@media (min-width: 480px), (max-width: 481px) {
+  .images-link {
+    display: flex;
+    margin-left: 25px;
+  }
+}
+@media (min-width: 768px), (max-width: 769px) {
+  .images-link {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media (min-width: 1200px), (max-width: 1201) {
+  .images-link {
+    margin-left: 45px;
+    display: block;
+  }
 }
 
 .div11 {
